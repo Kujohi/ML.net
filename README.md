@@ -41,14 +41,14 @@ The API will start and listen on `http://localhost:5014`.
 Use Postman or `curl` to send a POST request:
 
 ```bash
-curl -X POST "http://localhost:5014/predict" \
+curl -X GET "http://localhost:5014/api/recommendation" \
      -H "Content-Type: application/json" \
      -d '{"userId": 1, "movieId": 101}'
 ```
 
 ### 5. API Endpoints
 
-- **POST /predict**
+- **GET /api/recommendation**
   - **Request Body**:
     ```json
     {
