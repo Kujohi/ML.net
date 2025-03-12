@@ -38,7 +38,7 @@ dotnet run
 The API will start and listen on `http://localhost:5014`.
 
 ### 4. Test the API
-Use Postman or `curl` to send a POST request:
+Use Postman or `curl` to send a GET request:
 
 ```bash
 curl -X GET "http://localhost:5014/api/recommendation" \
