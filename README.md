@@ -77,7 +77,3 @@ curl -X GET "http://localhost:5014/api/recommendation" \
 2. Create a new branch for your feature or bug fix.
 3. Commit your changes.
 4. Push to your fork and submit a pull request.
-
-## License
-This project is licensed under the MIT License.
-
